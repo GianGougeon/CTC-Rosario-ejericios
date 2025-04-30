@@ -13,3 +13,7 @@
 - [Ejercicio 9](./src/js/modules/practico1/ej9.js) Hacer un script que permita ingresar el nombre de un mes y luego muestre la cantidad de días que tiene dicho mes
 - [Ejercicio 10](./src/js/modules/practico1/ej10.js) Escribir un script que permita introducir el nombre un país y devoler un mensaje indicando si dicho país es sudamericano o no
 
+## Repartido 2
+
+- [Ejercicio 1](./src/js/modules/practico2/ej1.js) Mostrar todos los números naturales del 1 al 100
+- [Ejercicio 1](./src/js/modules/practico2/ej2.js) Mostrar todos los números naturales del 100 al 1

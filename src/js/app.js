@@ -1,41 +1,50 @@
-/* importar js */
-import { calcularPromedio } from './modules/practico1/ej1.js';
-import { calcularEjercicio2 } from './modules/practico1/ej2.js';
-import { calcularEjercicio3 } from './modules/practico1/ej3.js';
-import { calcularEjercicio4 } from './modules/practico1/ej4.js';
-import { calcularEjercicio5 } from './modules/practico1/ej5.js';
-import { calcularEjercicio6 } from './modules/practico1/ej6.js';
-import { calcularEjercicio7 } from './modules/practico1/ej7.js';
-import { calcularEjercicio8 } from './modules/practico1/ej8.js';
-import { calcularEjercicio9 } from './modules/practico1/ej9.js';
-import { calcularEjercicio10 } from './modules/practico1/ej10.js';
-/* Boton de ejercicio1 */
-let boton = document.getElementById("ej1Calcular");
-boton.addEventListener("click", calcularPromedio);
-/* Boton de ejercicio2 */
-let botonEj2 = document.getElementById("ej2Calcular")
-botonEj2.addEventListener("click", calcularEjercicio2);
-/* Boton de ejercicio3 */
-let botonEj3 = document.getElementById("ej3Calcular")
-botonEj3.addEventListener("click", calcularEjercicio3)
-/* Boton de ejercicio4 */
-let botonEj4 = document.getElementById("ej4Calcular")
-botonEj4.addEventListener("click", calcularEjercicio4)
-/* Boton de ejercicio5 */
-let botonEj5 = document.getElementById("ej5Calcular")
-botonEj5.addEventListener("click", calcularEjercicio5)
-/* Boton de ejercicio6 */
-let botonEj6 = document.getElementById("ej6Calcular")
-botonEj6.addEventListener("click", calcularEjercicio6)
-/* Boton de ejercicio7 */
-let botonEj7 = document.getElementById("ej7Calcular")
-botonEj7.addEventListener("click", calcularEjercicio7)
-/* Boton de ejercicio8 */
-let botonEj8 = document.getElementById("ej8Calcular")
-botonEj8.addEventListener("click", calcularEjercicio8)
-/* Boton de ejercicio9 */
-let botonEj9 = document.getElementById("ej9Calcular")
-botonEj9.addEventListener("click", calcularEjercicio9)
-/* Boton de ejercicio10 */
-let botonEj10 = document.getElementById("ej10Calcular")
-botonEj10.addEventListener("click", calcularEjercicio10)
+// importar funciones p1
+import {
+    calcularEjercicio1,
+    calcularEjercicio2,
+    calcularEjercicio3,
+    calcularEjercicio4,
+    calcularEjercicio5,
+    calcularEjercicio6,
+    calcularEjercicio7,
+    calcularEjercicio8,
+    calcularEjercicio9,
+    calcularEjercicio10
+} from './modules/practico1/index.js';
+// importar funciones p2
+import {
+    calcularEjercicio1P2,
+    calcularEjercicio2P2
+} from './modules/practico2/index.js';
+
+// Botones con sus funciones
+const ejerciciosRepartido1 = [
+    { id: "ej1Calcular", funcion: calcularEjercicio1 },
+    { id: "ej2Calcular", funcion: calcularEjercicio2 },
+    { id: "ej3Calcular", funcion: calcularEjercicio3 },
+    { id: "ej4Calcular", funcion: calcularEjercicio4 },
+    { id: "ej5Calcular", funcion: calcularEjercicio5 },
+    { id: "ej6Calcular", funcion: calcularEjercicio6 },
+    { id: "ej7Calcular", funcion: calcularEjercicio7 },
+    { id: "ej8Calcular", funcion: calcularEjercicio8 },
+    { id: "ej9Calcular", funcion: calcularEjercicio9 },
+    { id: "ej10Calcular", funcion: calcularEjercicio10 }
+];
+
+const ejerciciosRepartido2 = [
+    { id: "ej1CalcularP2", funcion: calcularEjercicio1P2 },
+    { id: "ej1CalcularP2v2", funcion: calcularEjercicio1P2 },
+    { id: "ej2CalcularP2", funcion: calcularEjercicio2P2 },
+    { id: "ej2CalcularP2v2", funcion: calcularEjercicio2P2 },
+
+];
+
+const ejercicios = ejerciciosRepartido1.concat(ejerciciosRepartido2)
+
+// Recorrer el array y agrega los event listeners
+ejercicios.forEach(ejercicio => {
+    const boton = document.getElementById(ejercicio.id);
+    if (boton) {
+        boton.addEventListener("click", ejercicio.funcion);
+    }
+});

@@ -97,12 +97,40 @@ a {
 
 /* Header */
 header {
-  background-color: blue;
+  background-color: rgb(208, 208, 218);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 header > h1 {
-  color: white;
   display: flex;
   justify-content: center;
+}
+header > nav > ul {
+  display: flex;
+}
+header > nav > ul > li {
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.titulo {
+  justify-content: space-around;
+  display: flex;
+  background-color: blue;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  flex-direction: row;
+  color: white;
+}
+
+.titulo1 {
+  padding-top: 68px;
 }
 
 /* Grid */
@@ -113,8 +141,8 @@ header > h1 {
   gap: 16px;
   max-width: 90%; /* opcional, para que no sea tan grande en pantallas grandes */
   margin: auto;
-  margin-bottom: 50%;
   padding-top: 20px;
+  margin-bottom: 40px;
 }
 
 .cuadro {
@@ -126,7 +154,6 @@ header > h1 {
   font-size: 24px;
   border-radius: 3px;
   height: auto;
-  margin: auto;
 }
 
 /* Cuadros */
@@ -153,6 +180,21 @@ header > h1 {
 }
 .cuadro1 > div > input {
   width: 100%;
+}
+
+/* resultados */
+#ej1P2Resultado,
+#ej2P2Resultado {
+  display: flex;
+  max-width: 360px;
+  overflow-x: scroll;
+}
+#ej1P2Resultado > p,
+#ej2P2Resultado > p {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(35, 58, 121);
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */

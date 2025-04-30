@@ -1,0 +1,10 @@
+export { calcularEjercicio1 } from './ej1.js';
+export { calcularEjercicio2 } from './ej2.js';
+export { calcularEjercicio3 } from './ej3.js';
+export { calcularEjercicio4 } from './ej4.js';
+export { calcularEjercicio5 } from './ej5.js';
+export { calcularEjercicio6 } from './ej6.js';
+export { calcularEjercicio7 } from './ej7.js';
+export { calcularEjercicio8 } from './ej8.js';
+export { calcularEjercicio9 } from './ej9.js';
+export { calcularEjercicio10 } from './ej10.js';

@@ -1,10 +1,25 @@
 header {
-    background-color: blue;
+    background-color: rgb(208, 208, 218);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
     > {
         h1 {
-            color: white;
             display: flex;
             justify-content: center;
+        }
+    }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    > nav {
+        > ul {
+            display: flex;
+            > li {
+                padding: 0 20px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
         }
     }
 }
