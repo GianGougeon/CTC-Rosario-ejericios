@@ -5,13 +5,18 @@
     height: 600px;
     width: 100%;
     justify-content: space-between;
-    padding: 20px;
-    > h2 {
-        color: #333;
-        font-size: 24px;
+    font-size: 1rem;
+    > h3 {
+        font-size: 1.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(35, 58, 121);
+        color: white;
     }
     > p {
         font-size: bolder;
+        padding: 20px;
     }
     > div {
         padding: 10px;
@@ -19,6 +24,5 @@
             width: 100%;
         }
     }
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }

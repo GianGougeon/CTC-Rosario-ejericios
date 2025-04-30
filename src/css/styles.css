@@ -97,17 +97,18 @@ a {
 
 /* Header */
 header {
-  background-color: rgb(208, 208, 218);
+  background-color: #fff;
   position: fixed;
   width: 100%;
   z-index: 1000;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-header > h1 {
-  display: flex;
-  justify-content: center;
+header > img {
+  width: 10rem;
 }
 header > nav > ul {
   display: flex;
@@ -164,16 +165,20 @@ header > nav > ul > li {
   height: 600px;
   width: 100%;
   justify-content: space-between;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.cuadro1 > h2 {
-  color: #333;
-  font-size: 24px;
+.cuadro1 > h3 {
+  font-size: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(35, 58, 121);
+  color: white;
 }
 .cuadro1 > p {
   font-size: bolder;
+  padding: 20px;
 }
 .cuadro1 > div {
   padding: 10px;
@@ -184,13 +189,13 @@ header > nav > ul > li {
 
 /* resultados */
 #ej1P2Resultado,
-#ej2P2Resultado {
+#ej2P2Resultado, #ej4P2Resultado {
   display: flex;
   max-width: 360px;
   overflow-x: scroll;
 }
 #ej1P2Resultado > p,
-#ej2P2Resultado > p {
+#ej2P2Resultado > p, #ej4P2Resultado > p {
   margin: 10px;
   padding: 10px;
   background-color: rgb(35, 58, 121);

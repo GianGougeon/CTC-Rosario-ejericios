@@ -16,4 +16,12 @@
 ## Repartido 2
 
 - [Ejercicio 1](./src/js/modules/practico2/ej1.js) Mostrar todos los números naturales del 1 al 100
-- [Ejercicio 1](./src/js/modules/practico2/ej2.js) Mostrar todos los números naturales del 100 al 1
+- [Ejercicio 2](./src/js/modules/practico2/ej2.js) Mostrar todos los números naturales del 100 al 1
+- [Ejercicio 3](./src/js/modules/practico2/ej3.js) Utlizando el operador MOD, indicar si un número es par o impar
+- [Ejercicio 4](./src/js/modules/practico2/ej4.js) Mostrar los números pares que hay entre dos valores dados
+
+
+### devDependencias utilizadas:
+
+-   [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+-   [Sass](https://sass-lang.com/)
