@@ -20,7 +20,7 @@
 -   [Ejercicio 3](./src/js/modules/practico2/ej3.js) Utlizando el operador MOD, indicar si un número es par o impar
 -   [Ejercicio 4](./src/js/modules/practico2/ej4.js) Mostrar los números pares que hay entre dos valores dados
 -   [Ejercicio 5](./src/js/modules/practico2/ej5.js) Mostrar la cantidad de números pares que hay entre dos valores dados
-
+-   [Ejercicio 6](./src/js/modules/practico2/ej6.js) Mostrar los números que son múlƟplos de 3 entre 0 y 50
 
 ### devDependencias utilizadas:
 
