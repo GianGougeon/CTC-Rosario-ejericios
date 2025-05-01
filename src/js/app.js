@@ -52,7 +52,7 @@ const ejerciciosRepartido2 = [
     { id: "ej5CalcularP2", funcion: calcularEjercicio5P2 },
     { id: "ej6CalcularP2", funcion: calcularEjercicio6P2 },
     { id: "ej7CalcularP2", funcion: calcularEjercicio7P2 },
-
+    { id: "ej8CalcularP2", funcion: calcularEjercicio8P2 },
 ];
 
 const ejercicios = ejerciciosRepartido1.concat(ejerciciosRepartido2)

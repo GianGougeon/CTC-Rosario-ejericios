@@ -25,7 +25,5 @@ export const calcularEjercicio7P2 = () => {
             console.log("esilo");
             ejercicio7P2Valor2.style = `background-color: red`
         }
-
-
     }
 };

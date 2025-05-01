@@ -186,6 +186,10 @@ header > nav > ul > li {
 .cuadro1 > div > input {
   width: 100%;
 }
+.cuadro1 label {
+  display: flex;
+  justify-content: center;
+}
 
 /* resultados */
 #ej1P2Resultado,
