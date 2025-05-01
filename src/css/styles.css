@@ -202,4 +202,9 @@ header > nav > ul > li {
   border-radius: 5px;
 }
 
+#ej5P2Resultado {
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
