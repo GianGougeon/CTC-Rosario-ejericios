@@ -1,5 +1,7 @@
 # ✔ Ejercicios/Desafios:
 
+Restulados funcionales en pagina web: **[Pagina de ejercicios](https://giangougeon.github.io/CTC-Rosario-ejericios/)**
+
 ## Repartido 1
 
 -   [Ejercicio 1](./src/js/modules/practico1/ej1.js) Hacer un script que permita ingresar 4 valores y después nos muestre el promedio
@@ -21,6 +23,7 @@
 -   [Ejercicio 4](./src/js/modules/practico2/ej4.js) Mostrar los números pares que hay entre dos valores dados
 -   [Ejercicio 5](./src/js/modules/practico2/ej5.js) Mostrar la cantidad de números pares que hay entre dos valores dados
 -   [Ejercicio 6](./src/js/modules/practico2/ej6.js) Mostrar los números que son múlƟplos de 3 entre 0 y 50
+-   [Ejercicio 7](./src/js/modules/practico2/ej7.js) Dado un importe y un porcentaje de recargo, calcular el nuevo importe
 
 ### devDependencias utilizadas:
 

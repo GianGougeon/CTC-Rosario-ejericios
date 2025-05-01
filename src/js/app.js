@@ -18,7 +18,14 @@ import {
     calcularEjercicio3P2,
     calcularEjercicio4P2,
     calcularEjercicio5P2,
-    calcularEjercicio6P2
+    calcularEjercicio6P2,
+    calcularEjercicio7P2,
+    calcularEjercicio8P2,
+    calcularEjercicio9P2,
+    calcularEjercicio10P2,
+    calcularEjercicio11P2,
+    calcularEjercicio12P2,
+    calcularEjercicio13P2
 } from './modules/practico2/index.js';
 
 // Botones con sus funciones
@@ -44,6 +51,7 @@ const ejerciciosRepartido2 = [
     { id: "ej4CalcularP2", funcion: calcularEjercicio4P2 },
     { id: "ej5CalcularP2", funcion: calcularEjercicio5P2 },
     { id: "ej6CalcularP2", funcion: calcularEjercicio6P2 },
+    { id: "ej7CalcularP2", funcion: calcularEjercicio7P2 },
 
 ];
 
