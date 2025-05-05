@@ -1,9 +1,9 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas fijas */
-    grid-template-rows: repeat(2, 1fr); /* 2 filas de 100px */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     gap: 16px;
-    max-width: 90%; /* opcional, para que no sea tan grande en pantallas grandes */
+    max-width: 90%;
     margin: auto;
     padding-top: 20px;
     margin-bottom: 40px;
@@ -17,5 +17,19 @@
     justify-content: center;
     font-size: 24px;
     border-radius: 3px;
-    height: auto;
+    height: 100px;
+}
+
+/* tablet */
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* celu */
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
