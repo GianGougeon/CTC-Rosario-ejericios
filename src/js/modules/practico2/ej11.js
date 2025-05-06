@@ -20,6 +20,7 @@ export const calcularEjercicio11P2 = () => {
     const valor = document.getElementById("ejercicio11P2Valor")
     const valorNum = parseInt(valor.value)
     const resultado = document.getElementById('ej11P2Resultado')
+    valor.style = ``
     
     if (valorNum >= -10 && valorNum <= 40) {
         if (valorNum < 10) {
