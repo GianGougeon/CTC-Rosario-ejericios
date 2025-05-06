@@ -38,7 +38,7 @@ export const calcularEjercicio12P2 = () => {
                 break;
         }
     } else {
-        resultado.textContent = `Ingrese un valor valido`;
+        resultado.textContent = `Ingrese un valor válido`;
         valor.style = `background-color: red`
     }
 };

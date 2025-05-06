@@ -361,17 +361,27 @@
             <!-- ej9 -->
             <div class="cuadro cuadro1">
                 <h3>Ejercicio 9</h3>
-                <p></p>
+                <p>Simule una calculadora. El script recibirá un signo “+”, o “-”, o “*”, o “/” y luego recibirá dos valores. Deberá realizar la operación que el signo ingresado con anterioridad defina</p>
                 <div>
-                    <label for="ejercicio8P2Valor">Contenido</label>
-                    <input type="number" id="ejercicio8P2Valor" disabled />
+                    <label for="ejercicio9P2Valor">Primer valor</label>
+                    <input type="number" id="ejercicio9P2Valor" />
                 </div>
-                <div class="ej5P2Resultado">
-                    <button id="ej8CalcularP2" class="button-6" disabled>Calcular</button>
+                <div>
+                    <label for="ejercicio9P2Valor2">Segundo valor</label>
+                    <input type="number" id="ejercicio9P2Valor2" />
+                </div>
+                <select id="ejercicio9P2ValorSelect">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <div class="ej9P2Resultado">
+                    <button id="ej9CalcularP2" class="button-6">Calcular</button>
                 </div>
                 <!-- resultado -->
                 <div>
-                    <div id="ej8P2Resultado"></div>
+                    <div id="ej9P2Resultado"></div>
                 </div>
             </div>
             <!-- ej10 -->
@@ -448,6 +458,22 @@
                 <!-- resultado -->
                 <div>
                     <div id="ej12P2Resultado"></div>
+                </div>
+            </div>
+            <!-- ej13 -->
+            <div class="cuadro cuadro1">
+                <h3>Ejercicio 13</h3>
+                <p>La nota máxima que se otorga es 100 y la mínima es 0. Con más de 69 puntos se aprueba el curso y con más de 85 se exonera. Recibir la nota de un estudiante y mostrar un mensaje del resultado que obtuvo</p>
+                <div>
+                    <label for="ejercicio13P2Valor">Ingrese un valor entre 0 y 100</label>
+                    <input type="number" id="ejercicio13P2Valor" />
+                </div>
+                <div class="ej5P2Resultado">
+                    <button id="ej13CalcularP2" class="button-6">Calcular</button>
+                </div>
+                <!-- resultado -->
+                <div>
+                    <p id="ej13P2Resultado" style="text-align: center"></p>
                 </div>
             </div>
         </section>
