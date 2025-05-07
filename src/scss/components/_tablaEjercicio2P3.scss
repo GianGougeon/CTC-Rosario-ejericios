@@ -1,0 +1,27 @@
+.ejercicio2P2Valor {
+    position: relative;
+    display: inline-block;
+    padding-right: 25px;
+
+    > span {
+        position: absolute;
+        top: 67%;
+        right: 15px;
+        transform: translateY(-50%);
+        font-size: 16px;
+        color: #999;
+        cursor: pointer;
+        user-select: none;
+
+        &:hover {
+            color: #333;
+        }
+    }
+}
+#ej2P3Resultado,
+#ej2P3Resultado2,
+#ej2P3Resultado3 {
+    > span {
+        color: #333;
+    }
+}

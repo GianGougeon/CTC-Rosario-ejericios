@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Reset de estilos basado en Normalize.css */
 * {
   margin: 0;
@@ -191,6 +192,7 @@ header > nav > ul > li {
 .cuadro1 > p {
   font-size: bolder;
   padding: 20px;
+  text-align: center;
 }
 .cuadro1 > div {
   padding: 10px;
@@ -242,6 +244,57 @@ header > nav > ul > li {
 }
 .tabla-estilizada tbody tr {
   background-color: #f9f9f9;
+}
+
+.ejercicio2P2Valor {
+  position: relative; /* Para que el botón se posicione relativamente a este contenedor */
+  display: inline-block; /* O el tipo de display que necesites para tu diseño */
+}
+
+.ejercicio2P2Valor {
+  padding-right: 25px; /* Espacio para que no se superponga el texto con el botón */
+  /* Otros estilos de tu input */
+}
+
+.botonBorrarEjercicio2P2Valor {
+  position: absolute;
+  top: 67%;
+  right: 15px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #999;
+  cursor: pointer;
+  user-select: none;
+}
+
+.botonBorrarEjercicio2P2Valor:hover {
+  color: #333; /* Cambia el color al pasar el ratón */
+}
+
+/* tablaEjercicio2P3 */
+.ejercicio2P2Valor {
+  position: relative;
+  display: inline-block;
+  padding-right: 25px;
+}
+.ejercicio2P2Valor > span {
+  position: absolute;
+  top: 67%;
+  right: 15px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #999;
+  cursor: pointer;
+  user-select: none;
+}
+.ejercicio2P2Valor > span:hover {
+  color: #333;
+}
+
+#ej2P3Resultado > span,
+#ej2P3Resultado2 > span,
+#ej2P3Resultado3 > span {
+  color: #333;
 }
 
 /*# sourceMappingURL=styles.css.map */

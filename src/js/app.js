@@ -27,6 +27,21 @@ import {
     calcularEjercicio12P2,
     calcularEjercicio13P2
 } from './modules/practico2/index.js';
+// importar funciones p2
+import {
+    calcularEjercicio1P3,
+    calcularEjercicio2P3,
+    calcularEjercicio3P3,
+    calcularEjercicio4P3,
+    calcularEjercicio5P3,
+    calcularEjercicio6P3,
+    calcularEjercicio7P3,
+    calcularEjercicio8P3,
+    calcularEjercicio9P3,
+    calcularEjercicio10P3,
+    calcularEjercicio11P3,
+    calcularEjercicio12P3
+} from './modules/practico3/index.js';
 
 // Botones con sus funciones
 const ejerciciosRepartido1 = [
@@ -59,8 +74,13 @@ const ejerciciosRepartido2 = [
     { id: "ej12CalcularP2", funcion: calcularEjercicio12P2 },
     { id: "ej13CalcularP2", funcion: calcularEjercicio13P2 },
 ];
+const ejerciciosRepartido3 = [
+    { id: "ej1CalcularP3", funcion: calcularEjercicio1P3 },
+    { id: "ej1CalcularP3v2", funcion: calcularEjercicio1P3 },
+    { id: "ej2CalcularP3", funcion: calcularEjercicio2P3 },
+];
 
-const ejercicios = ejerciciosRepartido1.concat(ejerciciosRepartido2)
+const ejercicios = ejerciciosRepartido1.concat(ejerciciosRepartido2).concat(ejerciciosRepartido3)
 
 // Recorrer el array y agrega los event listeners
 ejercicios.forEach(ejercicio => {
@@ -69,3 +89,4 @@ ejercicios.forEach(ejercicio => {
         boton.addEventListener("click", ejercicio.funcion);
     }
 });
+

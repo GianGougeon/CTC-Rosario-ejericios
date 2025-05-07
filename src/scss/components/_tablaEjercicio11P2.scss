@@ -22,3 +22,24 @@
         }
     }
 }
+.ejercicio2P2Valor {
+    position: relative; /* Para que el botón se posicione relativamente a este contenedor */
+    display: inline-block; /* O el tipo de display que necesites para tu diseño */
+}
+.ejercicio2P2Valor {
+    padding-right: 25px; /* Espacio para que no se superponga el texto con el botón */
+    /* Otros estilos de tu input */
+}
+.botonBorrarEjercicio2P2Valor {
+    position: absolute;
+    top: 67%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #999;
+    cursor: pointer;
+    user-select: none;
+}
+.botonBorrarEjercicio2P2Valor:hover {
+    color: #333; /* Cambia el color al pasar el ratón */
+}

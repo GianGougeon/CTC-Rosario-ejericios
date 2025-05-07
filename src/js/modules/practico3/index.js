@@ -1,0 +1,12 @@
+export { calcularEjercicio1P3 } from './ej1.js';
+export { calcularEjercicio2P3 } from './ej2.js';
+export { calcularEjercicio3P3 } from './ej3.js';
+export { calcularEjercicio4P3 } from './ej4.js';
+export { calcularEjercicio5P3 } from './ej5.js';
+export { calcularEjercicio6P3 } from './ej6.js';
+export { calcularEjercicio7P3 } from './ej7.js';
+export { calcularEjercicio8P3 } from './ej8.js';
+export { calcularEjercicio9P3 } from './ej9.js';
+export { calcularEjercicio10P3 } from './ej10.js';
+export { calcularEjercicio11P3 } from './ej11.js';
+export { calcularEjercicio12P3 } from './ej12.js';

@@ -8,10 +8,6 @@ export const calcularEjercicio9P2 = () => {
     valor.style = ``
     valor2.style = ``
 
-    console.log(valorNum, "valor1");
-    console.log(valorNum2, "valor2");
-
-
     if (!isNaN(valorNum) && !isNaN(valorNum2)) {
         let calculo
         switch (ejercicio9P2ValorSelect) {
