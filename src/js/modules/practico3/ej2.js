@@ -5,11 +5,9 @@ const PrimerLetraM = (string) => {
     const PrimerLetraM = primerLetra.toUpperCase()
     /* retorna todo */
     return PrimerLetraM + resto
-
-
 }
 export const calcularEjercicio2P3 = () => {
-    const valor = document.getElementById("ejercicio2P2Valor")
+    const valor = document.getElementById("ejercicio2P3Valor")
     const valotToString = valor.value.toString()
     const resultado = document.getElementById("ej2P3Resultado")
     const resultado2 = document.getElementById("ej2P3Resultado2")
@@ -17,8 +15,8 @@ export const calcularEjercicio2P3 = () => {
 
 
     if (valotToString) {
-        resultado.innerHTML = `Resultado Mayúsculas: <span>${valotToString.toLowerCase()}</span>`
-        resultado2.innerHTML = `Resultado Minúsculas: <span>${valotToString.toUpperCase()}</span>`
+        resultado.innerHTML = `Resultado Minúsculas: <span>${valotToString.toLowerCase()}</span>`
+        resultado2.innerHTML = `Resultado Mayúsculas: <span>${valotToString.toUpperCase()}</span>`
         resultado3.innerHTML = `Resultado primer letra Mayúsculas: <span>${PrimerLetraM(valotToString)}</span>`
 
     } else {

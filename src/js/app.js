@@ -78,6 +78,7 @@ const ejerciciosRepartido3 = [
     { id: "ej1CalcularP3", funcion: calcularEjercicio1P3 },
     { id: "ej1CalcularP3v2", funcion: calcularEjercicio1P3 },
     { id: "ej2CalcularP3", funcion: calcularEjercicio2P3 },
+    { id: "ej3CalcularP3", funcion: calcularEjercicio3P3 },
 ];
 
 const ejercicios = ejerciciosRepartido1.concat(ejerciciosRepartido2).concat(ejerciciosRepartido3)

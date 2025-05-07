@@ -31,9 +31,11 @@ Restulados funcionales en página web: **[Pagina de ejercicios](https://giangoug
 -   [Ejercicio 12](./src/js/modules/practico2/ej12.js) Escriba script que pida un número del 1 al 10 al usuario, y escriba el nombre de ese número, usando "switch" (por ejemplo, si introduce "1", el programa escribirá "uno")
 -   [Ejercicio 13](./src/js/modules/practico2/ej13.js) La nota máxima que se otorga es 100 y la mínima es 0. Con más de 69 puntos se aprueba el curso y con más de 85 se exonera. Recibir la nota de un estudiante y mostrar un mensaje del resultado que obtuvo
 
-<!-- ## Repartido 3
+## Repartido 3
 
--   [Ejercicio 1](./src/js/modules/practico3/ej1.js) -->
+-   [Ejercicio 1](./src/js/modules/practico3/ej1.js) Dada esta cadena de caracteres: “Turil pasa por la radial de Juan Lacaze” escriba un script que sustituya “la radial de Juan Lacaze” por “Valdense”
+-   [Ejercicio 2](./src/js/modules/practico3/ej2.js) Escribir un script que permita ingresar una frase y primero mostrarla en mayúscula y luego en minúscula
+-   [Ejercicio 3](./src/js/modules/practico3/ej3.js) Escribir un script que permita ingresar 3 frases y muestre la frase más larga
 
 ### devDependencias utilizadas:
 
