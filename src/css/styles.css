@@ -297,4 +297,19 @@ header > nav > ul > li {
   color: #333;
 }
 
+/* tablaEjercicio2P3 */
+#ej4P3Resultado > span {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#ej4P3Resultado > span:nth-child(2),
+#ej4P3Resultado > span:nth-child(4) {
+  color: red;
+}
+#ej4P3Resultado > span:nth-child(3),
+#ej4P3Resultado > span:nth-child(5) {
+  color: rgb(62, 214, 2);
+}
+
 /*# sourceMappingURL=styles.css.map */

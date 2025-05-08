@@ -1,7 +1,7 @@
 export { calcularEjercicio1P3 } from './ej1.js';
 export { calcularEjercicio2P3 } from './ej2.js';
 export { calcularEjercicio3P3 } from './ej3.js';
-export { calcularEjercicio4P3 } from './ej4.js';
+export { calcularEjercicio4P3, calcularEjercicio4P3BorrarArr } from './ej4.js';
 export { calcularEjercicio5P3 } from './ej5.js';
 export { calcularEjercicio6P3 } from './ej6.js';
 export { calcularEjercicio7P3 } from './ej7.js';

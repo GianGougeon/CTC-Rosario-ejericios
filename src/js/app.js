@@ -33,6 +33,7 @@ import {
     calcularEjercicio2P3,
     calcularEjercicio3P3,
     calcularEjercicio4P3,
+    calcularEjercicio4P3BorrarArr,
     calcularEjercicio5P3,
     calcularEjercicio6P3,
     calcularEjercicio7P3,
@@ -79,6 +80,8 @@ const ejerciciosRepartido3 = [
     { id: "ej1CalcularP3v2", funcion: calcularEjercicio1P3 },
     { id: "ej2CalcularP3", funcion: calcularEjercicio2P3 },
     { id: "ej3CalcularP3", funcion: calcularEjercicio3P3 },
+    { id: "ej4CalcularP3", funcion: calcularEjercicio4P3 },
+    { id: "ej4CalcularP3v2", funcion: calcularEjercicio4P3BorrarArr },
 ];
 
 const ejercicios = ejerciciosRepartido1.concat(ejerciciosRepartido2).concat(ejerciciosRepartido3)

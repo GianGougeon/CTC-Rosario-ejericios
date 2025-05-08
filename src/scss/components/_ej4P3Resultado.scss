@@ -1,0 +1,17 @@
+#ej4P3Resultado {
+    > span {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    > span:nth-child(2),
+    > span:nth-child(4) {
+        color: red;
+    }
+
+    > span:nth-child(3),
+    > span:nth-child(5) {
+        color: rgb(62, 214, 2);
+    }
+}

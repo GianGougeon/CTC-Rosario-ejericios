@@ -36,6 +36,7 @@ Restulados funcionales en página web: **[Pagina de ejercicios](https://giangoug
 -   [Ejercicio 1](./src/js/modules/practico3/ej1.js) Dada esta cadena de caracteres: “Turil pasa por la radial de Juan Lacaze” escriba un script que sustituya “la radial de Juan Lacaze” por “Valdense”
 -   [Ejercicio 2](./src/js/modules/practico3/ej2.js) Escribir un script que permita ingresar una frase y primero mostrarla en mayúscula y luego en minúscula
 -   [Ejercicio 3](./src/js/modules/practico3/ej3.js) Escribir un script que permita ingresar 3 frases y muestre la frase más larga
+-   [Ejercicio 4](./src/js/modules/practico3/ej4.js) Escribir un script que permita introducir frases hasta que se introduzca la palabra “suficiente”, luego mostrar la cantidad de frases ingresadas
 
 ### devDependencias utilizadas:
 
