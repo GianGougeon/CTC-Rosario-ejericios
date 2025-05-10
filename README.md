@@ -38,6 +38,7 @@ Restulados funcionales en página web: **[Pagina de ejercicios](https://giangoug
 -   [Ejercicio 3](./src/js/modules/practico3/ej3.js) Escribir un script que permita ingresar 3 frases y muestre la frase más larga
 -   [Ejercicio 4](./src/js/modules/practico3/ej4.js) Escribir un script que permita introducir frases hasta que se introduzca la palabra “suficiente”, luego mostrar la cantidad de frases ingresadas
 -   [Ejercicio 5](./src/js/modules/practico3/ej5.js) Escribir un script llamado "letra", que reciba 2 datos, una cadena de caracteres, y un número. La función devolverá la letra cuyo índice sea igual al número ingresado, además la función deberá mandar un mensaje si dicho número no se encuentra dentro del rango del texto ingresado
+-   [Ejercicio 6](./src/js/modules/practico3/ej6.js) Escriba un script que reciba tres palabras en forma independiente y luego muestre una frase uniendo dichas palabras
 
 ### devDependencias utilizadas:
 
