@@ -14,7 +14,7 @@ export const calcularEjercicio7P3 = () => {
     // reset style
     input.style = ``
 
-    if (hayEspacios(value)) {
+    if (!value || hayEspacios(value)) {
         input.style = `background-color:red`
         result.innerHTML = `Inserte un texto válido y sin espacios`
 
