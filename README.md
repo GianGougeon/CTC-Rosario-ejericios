@@ -39,6 +39,13 @@ Restulados funcionales en página web: **[Pagina de ejercicios](https://giangoug
 -   [Ejercicio 4](./src/js/modules/practico3/ej4.js) Escribir un script que permita introducir frases hasta que se introduzca la palabra “suficiente”, luego mostrar la cantidad de frases ingresadas
 -   [Ejercicio 5](./src/js/modules/practico3/ej5.js) Escribir un script llamado "letra", que reciba 2 datos, una cadena de caracteres, y un número. La función devolverá la letra cuyo índice sea igual al número ingresado, además la función deberá mandar un mensaje si dicho número no se encuentra dentro del rango del texto ingresado
 -   [Ejercicio 6](./src/js/modules/practico3/ej6.js) Escriba un script que reciba tres palabras en forma independiente y luego muestre una frase uniendo dichas palabras
+-   [Ejercicio 7](./src/js/modules/practico3/ej7.js) Escriba un script que permita ingresar un nombre y lo muestre repetido 5 veces
+
+## Practica de parcial 1
+
+-   [Ejercicio 1](./src/js/modules/parcial1/ej1.js) Escribir un script que permita el ingreso de una frase y cuente las vocales
+-   [Ejercicio 2](./src/js/modules/parcial1/ej2.js) Escribir un script que permita el ingreso de una frase y cambie la primer letra de cada palabra a mayúsculas
+-   [Ejercicio 3](./src/js/modules/parcial1/ej2.js) Escribir un script que permita el ingreso de una frase y cambie la primer letra de cada palabra a mayúsculas
 
 ### devDependencias utilizadas:
 

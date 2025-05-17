@@ -1,0 +1,10 @@
+export { calcularParcial1 } from './ej1.js';
+export { calcularParcial2 } from './ej2.js';
+export { calcularParcial3 } from './ej3.js';
+export { calcularParcial4 } from './ej4.js';
+export { calcularParcial5 } from './ej5.js';
+export { calcularParcial6 } from './ej6.js';
+export { calcularParcial7 } from './ej7.js';
+export { calcularParcial8 } from './ej8.js';
+export { calcularParcial9 } from './ej9.js';
+export { calcularParcial10 } from './ej10.js';
